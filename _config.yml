@@ -21,12 +21,12 @@ repository               : "lzimmermann4/lzimmermann4.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "headshot.jpg"
   name             : "Lauren Zimmermann"
   pronouns         : "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
   location         : "Boston, MA"
-  employer         : # "Red Brick University"
+  employer         : # "University of Michigan"
   uri              : # URL
   email            : # "none@example.org" 
 
@@ -34,7 +34,7 @@ author:
   arxiv            : # URL 
   googlescholar    : "https://scholar.google.com/citations?user=IIseaZ8AAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0003-2743-9905"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "lauren-zimmermann-15b71074"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -201,16 +201,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: false
+    output: true
     permalink: /:collection/:path/
   publications:
-    output: false
+    output: true
     permalink: /:collection/:path/
   portfolio:
-    output: false
+    output: true
     permalink: /:collection/:path/
   talks:
-    output: false
+    output: true
     permalink: /:collection/:path/
 
 
